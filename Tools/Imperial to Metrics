@@ -1,0 +1,11 @@
+Just use units
+
+sudo apt install units
+
+Command:
+
+units
+
+It will open the interactive mode.
+
+The first result will provide the conversion required.
