@@ -1,0 +1,9 @@
+Install this dependency:
+sudo apt install npm
+
+Then install urban dictionary:
+sudo npm install urban-dictionary-cli -g
+
+The main command is:
+
+udict
