@@ -1,0 +1,24 @@
+We will use MemoQ as it is more flexible (you can export to Excel, csv both the TM's and the TB's).
+
+If you need to migrate TM's and TB's from Trados to MemoQ:
+
+For TM's  you have use Wordfast Converter (Wfconverter)
+
+Upload Trados .sdltm and convert to .tmx (MemoQ)
+(Finally to upload to MemoQ this .tmx you have to first create an empty TM and then import the file in the empty one).
+
+To import to Trados from MemoQ is more straightforward as Trados supports .tmx files.
+
+For TB's 
+Trados needs SDL Multiterm. As Trados cannot be easy to manage regardin termbases, it is better to work on MemoQ
+then export the termbase in a format-like Trados (as .XML).
+MemoQ usually exports also a file (.xdt) that indicates the structure of the termbase
+
+On SDL Multiterm: Import and poin to the .xdt file. After completing the creation of the empty termbases
+Just click on Import-> Process and then select the .XML file containing the terms.
+
+It will ask also for an exclusion file: just click on save and give any name you want
+
+Afterthat just click on 'Finish'
+
+Closing SDL Multiterm and opening Trados, just select 'Use existing termbase'.
