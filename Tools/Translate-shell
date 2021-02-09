@@ -1,0 +1,13 @@
+ sudo apt-get install translate-shell
+ 
+ Command
+ 
+ trans
+ 
+ trans :es hi
+ 
+ it will translate to spanish the word hi
+ 
+ trans -s it :es 'ciao sono carlo'
+ 
+ it will translate from italiano to spanish the sentences between the marks ' '
