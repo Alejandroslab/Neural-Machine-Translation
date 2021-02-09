@@ -1,0 +1,17 @@
+In MemoQ export the TM. It will have extension .TMX
+
+You have now to download a little tool called Oliphant!
+
+After installation, open it then ctrl+o
+
+Select the .TMX file exported from MemoQ. It will show a little preview of the TM.
+
+Now click on export.
+
+In the new window set 'first attribute' to: ID (even if is not really necessary do it otherwise it could not work the tool)
+
+Select Wordfast file type (.txt)
+
+Now provide a name for the file. Click save.
+
+It will save a .txt file that can be imported with the classic function Import txt, csv in Excel.
