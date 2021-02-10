@@ -1,0 +1,9 @@
+rae-cli
+
+rae -td mundo
+
+will provide all the defintions of the word 'mundo'
+
+rae -c saber
+
+will provide all the conjugations of the verb 'saber'
