@@ -1,3 +1,16 @@
+first:
+Sudo apt-get intall elinks
+Sudo apt install curl
+
+then:
+
+git clone https://github.com/sardach/rae-cli/
+cd rae-cli
+sudo install -Dm755 "rae" "/usr/bin/rae"
+
+
+run it;
+
 rae-cli
 
 rae -td mundo
