@@ -1,6 +1,6 @@
 first install dependecies:
-sudo apt-get install elinks
-Sudo apt-get install curl
+sudo apt-get install elinks -y
+sudo apt-get install curl -y
 
 then:
 
