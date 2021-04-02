@@ -1,6 +1,6 @@
-first:
-Sudo apt-get intall elinks
-Sudo apt install curl
+first install dependecies:
+sudo apt-get install elinks
+Sudo apt-get install curl
 
 then:
 
@@ -15,7 +15,7 @@ rae-cli
 
 rae -td mundo
 
-will provide all the defintions of the word 'mundo'
+will provide all the definitions of the word 'mundo'
 
 rae -c saber
 
