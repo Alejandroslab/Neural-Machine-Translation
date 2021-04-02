@@ -9,9 +9,10 @@ cd rae-cli
 sudo install -Dm755 "rae" "/usr/bin/rae"
 
 
-run it;
 
-rae-cli
+You can run now the program
+
+rae
 
 rae -td mundo
 
@@ -20,3 +21,29 @@ will provide all the definitions of the word 'mundo'
 rae -c saber
 
 will provide all the conjugations of the verb 'saber'
+
+------------
+
+in Debian you could have some problems as this
+error may appear:
+
+"perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+LANGUAGE = (unset),
+LC_ALL = (unset),
+LANG = "en_US.utf8" "
+
+solution:
+in Debian open:
+
+sudo vi .bashrc
+
+go to the last row and add these two lines:
+
+export LC_ALL=en_US.utf8
+export LANGUAGE=en_US.utf8
+
+DONE!
+
+
+____
