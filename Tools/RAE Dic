@@ -1,18 +1,16 @@
 first install dependecies:
-sudo apt-get install elinks -y
-sudo apt-get install curl -y
+sudo apt-get install elinks -y && sudo apt-get install curl -y
 
 then:
 
 git clone https://github.com/sardach/rae-cli/
-cd rae-cli
-sudo install -Dm755 "rae" "/usr/bin/rae"
+cd rae-cli && sudo install -Dm755 "rae" "/usr/bin/rae"
 
 
 
 You can run now the program
 
-rae
+rae hola
 
 rae -td mundo
 
